@@ -27,7 +27,7 @@ public class UserDaoImplTest {
 
     @Test
     public void testGetUser() throws Exception {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 10; i++) {
             User user = userDao.getUser(16);
             System.out.println(user);
         }
